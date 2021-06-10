@@ -64,6 +64,7 @@ ul {
 .header__button {
   margin-top: 50px;
   margin-bottom: auto;
+  align-self: center;
 }
 .button__path {
   transition: fill 0.5s;
@@ -76,14 +77,15 @@ ul {
   font-size: 18px;
   line-height: 25px;
   display: inline-block;
-  transform: translate(-57px, -17px);
+  transform: translateY(-17px);
+  margin-left: -57px;
 }
 .social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.social__link {
+.social__item {
   padding: 0 10px;
 }
 .service {
